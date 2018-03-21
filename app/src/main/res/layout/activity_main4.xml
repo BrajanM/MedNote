@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.brajan.mednote.Main4Activity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="szybkie notatki"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sn"
+        android:layout_marginHorizontal="5dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/sn"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/lista_notatek"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="260dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="nagrane wywiady"
+        android:textColor="@android:color/white"
+
+        android:id="@+id/dn"
+        android:layout_marginHorizontal="5dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/dn"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/lista_nagran"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

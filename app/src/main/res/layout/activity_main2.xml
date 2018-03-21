@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brajan.mednote.Main2Activity">
+
+    <EditText
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imię"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/imie"
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nazwisko"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/imie"
+    android:gravity="center"
+    android:layout_marginHorizontal="50dp"
+    android:id="@+id/nazwisko"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tytuł"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/nazwisko"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/tytuł"
+        />
+
+    <Button
+        android:id="@+id/cofnij"
+        android:layout_width="150dp"
+        android:layout_below="@+id/tytuł"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="cofnij" />
+
+    <Button
+        android:id="@+id/nagraj"
+        android:layout_width="150dp"
+        android:layout_below="@id/tytuł"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_alignLeft="@id/cofnij"
+        android:layout_marginLeft="200dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:text="notuj" />
+
+</RelativeLayout>
