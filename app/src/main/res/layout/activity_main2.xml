@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.brajan.mednote.Main2Activity">
 
+
+
     <EditText
         android:layout_marginTop="70dp"
         android:layout_width="match_parent"
@@ -15,6 +17,9 @@
         android:layout_marginHorizontal="50dp"
         android:id="@+id/imie"
         />
+
+
+
     <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -25,6 +30,9 @@
     android:layout_marginHorizontal="50dp"
     android:id="@+id/nazwisko"
     />
+
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,31 +44,41 @@
         android:id="@+id/tytuł"
         />
 
-    <Button
-        android:id="@+id/cofnij"
-        android:layout_width="150dp"
-        android:layout_below="@+id/tytuł"
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="20dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/white"
-        android:text="cofnij" />
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
 
-    <Button
-        android:id="@+id/nagraj"
-        android:layout_width="150dp"
-        android:layout_below="@id/tytuł"
-        android:layout_height="50dp"
 
-        android:layout_gravity="center"
-        android:layout_marginTop="150dp"
-        android:layout_alignLeft="@id/cofnij"
-        android:layout_marginLeft="200dp"
+        <Button
+            android:id="@+id/cofnij"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="cofnij" />
 
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@android:color/white"
-        android:text="notuj" />
+
+        <Button
+            android:id="@+id/nagraj"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/cofnij"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="notuj" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
 
 </RelativeLayout>

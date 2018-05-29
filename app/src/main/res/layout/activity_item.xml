@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brajan.mednote.Item">
+
+    <ImageButton
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/person"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/Wybierz"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/Wybierz"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię Nazwisko"
+        android:id="@+id/Imie"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/Wybierz"
+        android:layout_below="@+id/Imie"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tytuł"
+        android:id="@+id/Tytul"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/Wybierz"
+        android:layout_below="@+id/Tytul"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29.05.2018"
+        android:id="@+id/Data"
+        />
+
+</RelativeLayout>
