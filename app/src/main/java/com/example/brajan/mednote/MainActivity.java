@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         bazaDanych=(Button)findViewById(R.id.baza_danych);
         offButton=(ImageButton)findViewById(R.id.offButton);
 
+
         nagranie.setOnClickListener(onClick);
         bazaDanych.setOnClickListener(onClick2);
         offButton.setOnClickListener(onOffClick);

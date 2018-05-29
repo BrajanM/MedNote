@@ -13,8 +13,9 @@ import java.util.ArrayList;
 
 import butterknife.ButterKnife;
 
-public class Main3Activity extends AppCompatActivity {
 
+
+public class Main5Activity extends AppCompatActivity {
     private final int SPEECH_RECOGNITION_CODE = 1;
     private Button zapisz;
 
@@ -45,8 +46,8 @@ public class Main3Activity extends AppCompatActivity {
         public void onClick(View view)
         {
 
-            Intent intent = new Intent(Main3Activity.this, MainActivity.class);
-            Main3Activity.this.startActivity(intent);
+            Intent intent = new Intent(Main5Activity.this, MainActivity.class);
+            Main5Activity.this.startActivity(intent);
 
 
             // podpiąć tutaj zapis do bazy danych

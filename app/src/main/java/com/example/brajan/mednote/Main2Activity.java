@@ -51,6 +51,9 @@ public class Main2Activity extends AppCompatActivity {
 
             Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
             Main2Activity.this.startActivity(intent);
+
+
+            // w tym miejscu zapisać dane pacjenta do bazy
         }
     };
 
