@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         nagranie.setOnClickListener(onClick);
         bazaDanych.setOnClickListener(onClick2);
         offButton.setOnClickListener(onOffClick);
+        notatka.setOnClickListener(onClick3);
     }
     private View.OnClickListener onClick = new View.OnClickListener() {
         @Override
@@ -44,6 +45,18 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this, Main4Activity.class);
+            MainActivity.this.startActivity(intent);
+
+
+
+
+
+        }
+    };
+    private View.OnClickListener onClick3 = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MainActivity.this, Main5Activity.class);
             MainActivity.this.startActivity(intent);
 
 
