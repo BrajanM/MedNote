@@ -3,19 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/Crosses"
     tools:context="com.example.brajan.mednote.MainActivity">
 
 
     <Button
         android:id="@+id/notatka"
+
         android:layout_width="220dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="5dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/notka"
         android:textColor="@android:color/white"
-        android:text="Szybka notatka" />
+
+        />
 
     <Button
         android:id="@+id/nagranie"

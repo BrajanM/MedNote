@@ -21,12 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main4Activity" />
-        <activity android:name=".Main5Activity" />
-        <activity android:name=".Item" />
-        <activity android:name=".Text"></activity>
+        <activity android:name=".Main2Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main3Activity" android:screenOrientation="portrait" />
+        <activity android:name=".Main4Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main5Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Item" android:screenOrientation="portrait"/>
+        <activity android:name=".Text" ></activity>
     </application>
 
 </manifest>
