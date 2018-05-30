@@ -37,7 +37,7 @@ public class Item extends AppCompatActivity {
            Item.this.startActivity(intent);
 
 
-            // podpiąć tutaj zapis do bazy danych
+
 
         }
     };
